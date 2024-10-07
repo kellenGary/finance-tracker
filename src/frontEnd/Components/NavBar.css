@@ -2,37 +2,15 @@
 
 .navbar-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: var(--color-background);
     padding: 0.5rem;
+    width: 15vw;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .project-name {
     color: white;
     padding-left: 0.5rem;
-}
-
-.dropdown-container {
-    margin: auto 2rem auto auto;
-
-}
-
-.dropdown-icon {
-    color: white;
-    scale: 2;
-}
-
-.dropdown-icon:hover {
-    scale: 2;
-    border: 1px white solid;
-}
-
-.dropdown-content {
-    position: absolute;
-    background-color: darkgray;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    right: 10px;
 }
